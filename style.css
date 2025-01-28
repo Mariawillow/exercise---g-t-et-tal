@@ -42,11 +42,14 @@ button:hover {
     color: #555;
 }
 
+/* Celebration style  */
 .celebration {
     font-size: 50rem;
+    /* Her fortælles der at der skal være en animation, som er kaldet pop, den skal køre i 1 sek, ind og ud og infinity, forveigt. */
     animation: pop 1s ease-in-out infinite;
 }
 
+/* Her fortælles der hvad der skal ske med pop. Altså der vises hvor stor og lille den skal blive. */
 @keyframes pop {
 
     0%,
